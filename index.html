@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <title>Desafio SWITCH</title>
+    <style>
+        h2 {
+            color: #3162C7;
+            font-size: 24px;
+        }
+
+        .page {
+            width: 100%;
+            height: 100%;
+        }
+
+        .card {
+            padding: 20px;
+        }
+
+        #search{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid rgb(221, 221, 221);
+            margin-bottom: 20px;
+
+        }
+
+        .form-control {
+           width: 250px;
+        }
+
+        #btnNumber, #number {
+            margin: 10px 0 20px 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <div class="card">
+
+            <h2>Desafio SWITCH</h2>
+            <div id="search">
+                <label>Numero:</label>
+                <input type="text" id="number" class="form-control">
+                <a type='submit' id="btnNumber" class="btn btn-primary">
+                    <span class='glyphicon glyphicon-search' aria-hidden='true'></span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="switch.js"></script>
+</body>
+</html>
